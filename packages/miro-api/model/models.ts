@@ -19,7 +19,6 @@ export * from './auditPage'
 export * from './auditTeam'
 export * from './basicError'
 export * from './basicErrorOrganizationsEnterprisePlan'
-export * from './basicErrorTeamsEnterprisePlan'
 export * from './board'
 export * from './boardChanges'
 export * from './boardContentLogData'
@@ -69,6 +68,7 @@ export * from './copyBoardChanges'
 export * from './createBoardExportRequest'
 export * from './createBoardSubscriptionRequest'
 export * from './createDocumentItemUsingFileFromDeviceRequestData'
+export * from './createFrameItem400Response'
 export * from './createProjectRequest'
 export * from './createTeamRequest'
 export * from './createdBy'
@@ -144,7 +144,6 @@ export * from './getAllGroups404Response'
 export * from './getAllGroups429Response'
 export * from './getBoardItemContentLogsResponse'
 export * from './getBoardUserInfoLastOpenedBy'
-export * from './getBoards400Response'
 export * from './getItemsByGroupId200Response'
 export * from './getItemsByGroupId200ResponseData'
 export * from './getMetrics200ResponseInner'
@@ -165,8 +164,6 @@ export * from './imageItemPlatformFileUpload'
 export * from './imageUpdateRequest'
 export * from './imageUrlData'
 export * from './imageUrlDataChanges'
-export * from './imageUrlDataChangesPlatformbulkcreateoperation'
-export * from './imageUrlDataPlatformbulkcreateoperation'
 export * from './invitationError'
 export * from './invitationResult'
 export * from './item'
@@ -188,6 +185,7 @@ export * from './itemTypeChange'
 export * from './items'
 export * from './itemsPage'
 export * from './itemsPlatformcreateitemsinbulkusingfilefromdevice'
+export * from './mindMapNodeGeometry'
 export * from './mindmapCreateRequest'
 export * from './mindmapCursorPaged'
 export * from './mindmapData'
@@ -301,6 +299,7 @@ export * from './updateBoardsDataClassificationLabel'
 export * from './updateBoardsDataClassificationLabelRequest'
 export * from './updateCardStyle'
 export * from './updateConnectorStyle'
+export * from './updateFrameItem409Response'
 export * from './updateFrameStyle'
 export * from './updateProjectMemberRequest'
 export * from './updateProjectRequest'
@@ -353,7 +352,6 @@ import {AuditPage} from './auditPage'
 import {AuditTeam} from './auditTeam'
 import {BasicError} from './basicError'
 import {BasicErrorOrganizationsEnterprisePlan} from './basicErrorOrganizationsEnterprisePlan'
-import {BasicErrorTeamsEnterprisePlan} from './basicErrorTeamsEnterprisePlan'
 import {Board} from './board'
 import {BoardChanges} from './boardChanges'
 import {BoardContentLogData} from './boardContentLogData'
@@ -403,6 +401,7 @@ import {CopyBoardChanges} from './copyBoardChanges'
 import {CreateBoardExportRequest} from './createBoardExportRequest'
 import {CreateBoardSubscriptionRequest} from './createBoardSubscriptionRequest'
 import {CreateDocumentItemUsingFileFromDeviceRequestData} from './createDocumentItemUsingFileFromDeviceRequestData'
+import {CreateFrameItem400Response} from './createFrameItem400Response'
 import {CreateProjectRequest} from './createProjectRequest'
 import {CreateTeamRequest} from './createTeamRequest'
 import {CreatedBy} from './createdBy'
@@ -478,7 +477,6 @@ import {GetAllGroups404Response} from './getAllGroups404Response'
 import {GetAllGroups429Response} from './getAllGroups429Response'
 import {GetBoardItemContentLogsResponse} from './getBoardItemContentLogsResponse'
 import {GetBoardUserInfoLastOpenedBy} from './getBoardUserInfoLastOpenedBy'
-import {GetBoards400Response} from './getBoards400Response'
 import {GetItemsByGroupId200Response} from './getItemsByGroupId200Response'
 import {GetItemsByGroupId200ResponseData} from './getItemsByGroupId200ResponseData'
 import {GetMetrics200ResponseInner} from './getMetrics200ResponseInner'
@@ -499,8 +497,6 @@ import {ImageItemPlatformFileUpload} from './imageItemPlatformFileUpload'
 import {ImageUpdateRequest} from './imageUpdateRequest'
 import {ImageUrlData} from './imageUrlData'
 import {ImageUrlDataChanges} from './imageUrlDataChanges'
-import {ImageUrlDataChangesPlatformbulkcreateoperation} from './imageUrlDataChangesPlatformbulkcreateoperation'
-import {ImageUrlDataPlatformbulkcreateoperation} from './imageUrlDataPlatformbulkcreateoperation'
 import {InvitationError} from './invitationError'
 import {InvitationResult} from './invitationResult'
 import {Item} from './item'
@@ -522,6 +518,7 @@ import {ItemTypeChange} from './itemTypeChange'
 import {Items} from './items'
 import {ItemsPage} from './itemsPage'
 import {ItemsPlatformcreateitemsinbulkusingfilefromdevice} from './itemsPlatformcreateitemsinbulkusingfilefromdevice'
+import {MindMapNodeGeometry} from './mindMapNodeGeometry'
 import {MindmapCreateRequest} from './mindmapCreateRequest'
 import {MindmapCursorPaged} from './mindmapCursorPaged'
 import {MindmapData} from './mindmapData'
@@ -635,6 +632,7 @@ import {UpdateBoardsDataClassificationLabel} from './updateBoardsDataClassificat
 import {UpdateBoardsDataClassificationLabelRequest} from './updateBoardsDataClassificationLabelRequest'
 import {UpdateCardStyle} from './updateCardStyle'
 import {UpdateConnectorStyle} from './updateConnectorStyle'
+import {UpdateFrameItem409Response} from './updateFrameItem409Response'
 import {UpdateFrameStyle} from './updateFrameStyle'
 import {UpdateProjectMemberRequest} from './updateProjectMemberRequest'
 import {UpdateProjectRequest} from './updateProjectRequest'
@@ -889,7 +887,6 @@ let typeMap: {[index: string]: any} = {
   AuditTeam: AuditTeam,
   BasicError: BasicError,
   BasicErrorOrganizationsEnterprisePlan: BasicErrorOrganizationsEnterprisePlan,
-  BasicErrorTeamsEnterprisePlan: BasicErrorTeamsEnterprisePlan,
   Board: Board,
   BoardChanges: BoardChanges,
   BoardContentLogData: BoardContentLogData,
@@ -939,6 +936,7 @@ let typeMap: {[index: string]: any} = {
   CreateBoardExportRequest: CreateBoardExportRequest,
   CreateBoardSubscriptionRequest: CreateBoardSubscriptionRequest,
   CreateDocumentItemUsingFileFromDeviceRequestData: CreateDocumentItemUsingFileFromDeviceRequestData,
+  CreateFrameItem400Response: CreateFrameItem400Response,
   CreateProjectRequest: CreateProjectRequest,
   CreateTeamRequest: CreateTeamRequest,
   CreatedBy: CreatedBy,
@@ -1016,7 +1014,6 @@ let typeMap: {[index: string]: any} = {
   GetAllGroups429Response: GetAllGroups429Response,
   GetBoardItemContentLogsResponse: GetBoardItemContentLogsResponse,
   GetBoardUserInfoLastOpenedBy: GetBoardUserInfoLastOpenedBy,
-  GetBoards400Response: GetBoards400Response,
   GetItemsByGroupId200Response: GetItemsByGroupId200Response,
   GetItemsByGroupId200ResponseData: GetItemsByGroupId200ResponseData,
   GetMetrics200ResponseInner: GetMetrics200ResponseInner,
@@ -1038,8 +1035,6 @@ let typeMap: {[index: string]: any} = {
   ImageUpdateRequest: ImageUpdateRequest,
   ImageUrlData: ImageUrlData,
   ImageUrlDataChanges: ImageUrlDataChanges,
-  ImageUrlDataChangesPlatformbulkcreateoperation: ImageUrlDataChangesPlatformbulkcreateoperation,
-  ImageUrlDataPlatformbulkcreateoperation: ImageUrlDataPlatformbulkcreateoperation,
   InvitationError: InvitationError,
   InvitationResult: InvitationResult,
   Item: Item,
@@ -1060,6 +1055,7 @@ let typeMap: {[index: string]: any} = {
   Items: Items,
   ItemsPage: ItemsPage,
   ItemsPlatformcreateitemsinbulkusingfilefromdevice: ItemsPlatformcreateitemsinbulkusingfilefromdevice,
+  MindMapNodeGeometry: MindMapNodeGeometry,
   MindmapCreateRequest: MindmapCreateRequest,
   MindmapCursorPaged: MindmapCursorPaged,
   MindmapData: MindmapData,
@@ -1173,6 +1169,7 @@ let typeMap: {[index: string]: any} = {
   UpdateBoardsDataClassificationLabelRequest: UpdateBoardsDataClassificationLabelRequest,
   UpdateCardStyle: UpdateCardStyle,
   UpdateConnectorStyle: UpdateConnectorStyle,
+  UpdateFrameItem409Response: UpdateFrameItem409Response,
   UpdateFrameStyle: UpdateFrameStyle,
   UpdateProjectMemberRequest: UpdateProjectMemberRequest,
   UpdateProjectRequest: UpdateProjectRequest,

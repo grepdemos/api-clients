@@ -12,17 +12,25 @@
 
 /**
  * @internal
- * Contains information about the image URL.
+ * Test error obj
  */
-export class ImageUrlDataPlatformbulkcreateoperation {
+export class UpdateFrameItem409Response {
   /**
-   * A short text header to identify the image.
+   * Code of the error
    */
-  'title'?: string
+  'code'?: string
   /**
-   * URL of the image.
+   * Description of the error
    */
-  'url': string = 'https://miro.com/static/images/page/mr-index/localization/en/slider/ideation_brainstorming.png'
+  'message'?: string
+  /**
+   * Status code of the error
+   */
+  'status'?: number
+  /**
+   * Type of the error
+   */
+  'type'?: string
 
   /** @ignore */
   static discriminator: string | undefined = undefined
@@ -30,19 +38,29 @@ export class ImageUrlDataPlatformbulkcreateoperation {
   /** @ignore */
   static attributeTypeMap: Array<{name: string; baseName: string; type: string}> = [
     {
-      name: 'title',
-      baseName: 'title',
+      name: 'code',
+      baseName: 'code',
       type: 'string',
     },
     {
-      name: 'url',
-      baseName: 'url',
+      name: 'message',
+      baseName: 'message',
+      type: 'string',
+    },
+    {
+      name: 'status',
+      baseName: 'status',
+      type: 'number',
+    },
+    {
+      name: 'type',
+      baseName: 'type',
       type: 'string',
     },
   ]
 
   /** @ignore */
   static getAttributeTypeMap() {
-    return ImageUrlDataPlatformbulkcreateoperation.attributeTypeMap
+    return UpdateFrameItem409Response.attributeTypeMap
   }
 }

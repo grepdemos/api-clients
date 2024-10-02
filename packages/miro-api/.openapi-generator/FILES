@@ -21,7 +21,6 @@ model/auditPage.ts
 model/auditTeam.ts
 model/basicError.ts
 model/basicErrorOrganizationsEnterprisePlan.ts
-model/basicErrorTeamsEnterprisePlan.ts
 model/board.ts
 model/boardChanges.ts
 model/boardContentLogData.ts
@@ -71,6 +70,7 @@ model/copyBoardChanges.ts
 model/createBoardExportRequest.ts
 model/createBoardSubscriptionRequest.ts
 model/createDocumentItemUsingFileFromDeviceRequestData.ts
+model/createFrameItem400Response.ts
 model/createProjectRequest.ts
 model/createTeamRequest.ts
 model/createdBy.ts
@@ -146,7 +146,6 @@ model/getAllGroups404Response.ts
 model/getAllGroups429Response.ts
 model/getBoardItemContentLogsResponse.ts
 model/getBoardUserInfoLastOpenedBy.ts
-model/getBoards400Response.ts
 model/getItemsByGroupId200Response.ts
 model/getItemsByGroupId200ResponseData.ts
 model/getMetrics200ResponseInner.ts
@@ -167,8 +166,6 @@ model/imageItemPlatformFileUpload.ts
 model/imageUpdateRequest.ts
 model/imageUrlData.ts
 model/imageUrlDataChanges.ts
-model/imageUrlDataChangesPlatformbulkcreateoperation.ts
-model/imageUrlDataPlatformbulkcreateoperation.ts
 model/invitationError.ts
 model/invitationResult.ts
 model/item.ts
@@ -190,6 +187,7 @@ model/itemTypeChange.ts
 model/items.ts
 model/itemsPage.ts
 model/itemsPlatformcreateitemsinbulkusingfilefromdevice.ts
+model/mindMapNodeGeometry.ts
 model/mindmapCreateRequest.ts
 model/mindmapCursorPaged.ts
 model/mindmapData.ts
@@ -304,6 +302,7 @@ model/updateBoardsDataClassificationLabel.ts
 model/updateBoardsDataClassificationLabelRequest.ts
 model/updateCardStyle.ts
 model/updateConnectorStyle.ts
+model/updateFrameItem409Response.ts
 model/updateFrameStyle.ts
 model/updateProjectMemberRequest.ts
 model/updateProjectRequest.ts
