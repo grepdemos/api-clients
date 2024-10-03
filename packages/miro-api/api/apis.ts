@@ -5,7 +5,6 @@ import FormData = require('form-data')
 import {AppCardCreateRequest} from '../model/appCardCreateRequest'
 import {AppCardItem} from '../model/appCardItem'
 import {AppCardUpdateRequest} from '../model/appCardUpdateRequest'
-import {GetBoards400Response} from '../model/getBoards400Response'
 
 import {GetMetrics200ResponseInner} from '../model/getMetrics200ResponseInner'
 import {GetMetrics404Response} from '../model/getMetrics404Response'
@@ -67,6 +66,7 @@ import {EmbedCreateRequest} from '../model/embedCreateRequest'
 import {EmbedItem} from '../model/embedItem'
 import {EmbedUpdateRequest} from '../model/embedUpdateRequest'
 
+import {CreateFrameItem400Response} from '../model/createFrameItem400Response'
 import {GenericItem} from '../model/genericItem'
 import {GenericItemCursorPaged} from '../model/genericItemCursorPaged'
 import {ShapeCreateRequest} from '../model/shapeCreateRequest'
@@ -76,6 +76,7 @@ import {ShapeUpdateRequest} from '../model/shapeUpdateRequest'
 import {FrameCreateRequest} from '../model/frameCreateRequest'
 import {FrameItem} from '../model/frameItem'
 import {FrameUpdateRequest} from '../model/frameUpdateRequest'
+import {UpdateFrameItem409Response} from '../model/updateFrameItem409Response'
 
 import {GetAllGroups200Response} from '../model/getAllGroups200Response'
 import {GetAllGroups400Response} from '../model/getAllGroups400Response'
@@ -1286,7 +1287,7 @@ export class MiroApi {
   }
 
   /**
-   * Deletes a board.<br/><h3>Required scope</h3> <a target=_blank href=https://developers.miro.com/reference/scopes>boards:write</a> <br/><h3>Rate limiting</h3> <a target=_blank href=\"/docs/miro-rest-api-introduction#rate-limiting\">Level 3</a><br/>
+   * Deletes a board. Deleted boards go to Trash (on paid plans) and can be restored via UI within 90 days after deletion.<br/><h3>Required scope</h3> <a target=_blank href=https://developers.miro.com/reference/scopes>boards:write</a> <br/><h3>Rate limiting</h3> <a target=_blank href=\"/docs/miro-rest-api-introduction#rate-limiting\">Level 3</a><br/>
    * @summary Delete board
    * @param boardId Unique identifier (ID) of the board that you want to delete.
    */

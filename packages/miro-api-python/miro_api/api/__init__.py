@@ -2076,9 +2076,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "201": "ShapeItem",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": "CreateFrameItem400Response",
+            "404": "CreateFrameItem400Response",
+            "429": "CreateFrameItem400Response",
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -2205,9 +2205,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "204": "object",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": "CreateFrameItem400Response",
+            "404": "CreateFrameItem400Response",
+            "429": "CreateFrameItem400Response",
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -2337,9 +2337,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "200": "GenericItemCursorPaged",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": "CreateFrameItem400Response",
+            "404": "CreateFrameItem400Response",
+            "429": "CreateFrameItem400Response",
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -2473,9 +2473,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "200": "ShapeItem",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": "CreateFrameItem400Response",
+            "404": "CreateFrameItem400Response",
+            "429": "CreateFrameItem400Response",
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -2597,9 +2597,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "200": "GenericItem",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": "CreateFrameItem400Response",
+            "404": "CreateFrameItem400Response",
+            "429": "CreateFrameItem400Response",
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -2722,9 +2722,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "200": "ShapeItem",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": "CreateFrameItem400Response",
+            "404": "CreateFrameItem400Response",
+            "429": "CreateFrameItem400Response",
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -2854,9 +2854,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "201": "MindmapItem",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": "CreateFrameItem400Response",
+            "404": "CreateFrameItem400Response",
+            "429": "CreateFrameItem400Response",
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -2986,9 +2986,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "204": "object",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": "CreateFrameItem400Response",
+            "404": "CreateFrameItem400Response",
+            "429": "CreateFrameItem400Response",
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -5609,6 +5609,7 @@ class MiroApiEndpoints:
             "401": None,
             "403": None,
             "404": None,
+            "409": None,
             "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
@@ -6161,6 +6162,7 @@ class MiroApiEndpoints:
             "401": None,
             "403": None,
             "404": None,
+            "409": None,
             "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
@@ -7315,9 +7317,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "201": "BoardSubscription",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": "CreateFrameItem400Response",
+            "404": "CreateFrameItem400Response",
+            "429": "CreateFrameItem400Response",
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -7437,9 +7439,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "204": "object",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": "CreateFrameItem400Response",
+            "404": "CreateFrameItem400Response",
+            "429": "CreateFrameItem400Response",
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -7551,9 +7553,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "200": "GenericSubscription",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": "CreateFrameItem400Response",
+            "404": "CreateFrameItem400Response",
+            "429": "CreateFrameItem400Response",
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -7667,9 +7669,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "200": "GenericSubscriptionsCursorPaged",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": "CreateFrameItem400Response",
+            "404": "CreateFrameItem400Response",
+            "429": "CreateFrameItem400Response",
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -7790,9 +7792,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "200": "BoardSubscription",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": "CreateFrameItem400Response",
+            "404": "CreateFrameItem400Response",
+            "429": "CreateFrameItem400Response",
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -7919,9 +7921,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "201": "AppCardItem",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": None,
+            "404": None,
+            "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -8048,9 +8050,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "204": "object",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": None,
+            "404": None,
+            "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -8172,9 +8174,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "200": "AppCardItem",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": None,
+            "404": None,
+            "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -8297,9 +8299,10 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "200": "AppCardItem",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": None,
+            "404": None,
+            "409": None,
+            "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -8686,9 +8689,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "200": "BoardMembersPagedResponse",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": None,
+            "404": None,
+            "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -8816,9 +8819,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "200": "BoardMemberWithLinks",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": None,
+            "404": None,
+            "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -8939,9 +8942,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "204": "object",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": None,
+            "404": None,
+            "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -9060,9 +9063,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "201": "InvitationResult",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": None,
+            "404": None,
+            "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -9198,9 +9201,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "200": "BoardMemberWithLinks",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": None,
+            "404": None,
+            "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -9330,9 +9333,10 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "201": "BoardWithLinksAndWithoutProject",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": None,
+            "404": None,
+            "409": None,
+            "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -9455,9 +9459,10 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "201": "BoardWithLinks",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": None,
+            "404": None,
+            "409": None,
+            "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -9541,7 +9546,7 @@ class MiroApiEndpoints:
     ) -> object:
         """Delete board
 
-        Deletes a board.<br/><h3>Required scope</h3> <a target=_blank href=https://developers.miro.com/reference/scopes>boards:write</a> <br/><h3>Rate limiting</h3> <a target=_blank href=\"/docs/miro-rest-api-introduction#rate-limiting\">Level 3</a><br/>
+        Deletes a board. Deleted boards go to Trash (on paid plans) and can be restored via UI within 90 days after deletion.<br/><h3>Required scope</h3> <a target=_blank href=https://developers.miro.com/reference/scopes>boards:write</a> <br/><h3>Rate limiting</h3> <a target=_blank href=\"/docs/miro-rest-api-introduction#rate-limiting\">Level 3</a><br/>
 
         :param board_id: Unique identifier (ID) of the board that you want to delete. (required)
         :type board_id: str
@@ -9577,9 +9582,10 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "204": "object",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": None,
+            "404": None,
+            "409": None,
+            "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -9713,9 +9719,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "200": "BoardsPagedResponse",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": None,
+            "404": None,
+            "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -9859,9 +9865,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "200": "BoardWithLinksAndLastOpened",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": None,
+            "404": None,
+            "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -9978,9 +9984,10 @@ class MiroApiEndpoints:
         _response_types_map: Dict[str, Optional[str]] = {
             "200": "BoardWithLinks",
             "202": None,
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": None,
+            "404": None,
+            "409": None,
+            "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -10107,9 +10114,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "201": "CardItem",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": None,
+            "404": None,
+            "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -10236,9 +10243,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "204": "object",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": None,
+            "404": None,
+            "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -10360,9 +10367,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "200": "CardItem",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": None,
+            "404": None,
+            "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -10485,9 +10492,10 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "200": "CardItem",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": None,
+            "404": None,
+            "409": None,
+            "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -10618,9 +10626,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "200": "ConnectorWithLinks",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": None,
+            "404": None,
+            "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -10750,9 +10758,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "204": "object",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": None,
+            "404": None,
+            "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -10876,9 +10884,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "200": "ConnectorWithLinks",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": None,
+            "404": None,
+            "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -11004,9 +11012,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "200": "ConnectorsCursorPaged",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": None,
+            "404": None,
+            "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -11139,9 +11147,10 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "200": "ConnectorWithLinks",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": None,
+            "404": None,
+            "409": None,
+            "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -11406,9 +11415,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "201": "DocumentItem",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": None,
+            "404": None,
+            "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -11535,9 +11544,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "204": "object",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": None,
+            "404": None,
+            "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -11659,9 +11668,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "200": "DocumentItem",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": None,
+            "404": None,
+            "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -11926,9 +11935,10 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "200": "DocumentItem",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": None,
+            "404": None,
+            "409": None,
+            "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -12058,9 +12068,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "201": "EmbedItem",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": None,
+            "404": None,
+            "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -12187,9 +12197,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "204": "object",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": None,
+            "404": None,
+            "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -12311,9 +12321,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "200": "EmbedItem",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": None,
+            "404": None,
+            "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -12436,9 +12446,10 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "200": "EmbedItem",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": None,
+            "404": None,
+            "409": None,
+            "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -12568,9 +12579,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "201": "FrameItem",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": "CreateFrameItem400Response",
+            "404": "CreateFrameItem400Response",
+            "429": "CreateFrameItem400Response",
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -12699,9 +12710,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "204": "object",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": "CreateFrameItem400Response",
+            "404": "CreateFrameItem400Response",
+            "429": "CreateFrameItem400Response",
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -12823,9 +12834,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "200": "FrameItem",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": "CreateFrameItem400Response",
+            "404": "CreateFrameItem400Response",
+            "429": "CreateFrameItem400Response",
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -12950,9 +12961,10 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "200": "FrameItem",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": "CreateFrameItem400Response",
+            "404": "CreateFrameItem400Response",
+            "409": "UpdateFrameItem409Response",
+            "429": "CreateFrameItem400Response",
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -14135,9 +14147,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "201": "ImageItem",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": None,
+            "404": None,
+            "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -14264,9 +14276,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "204": "object",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": None,
+            "404": None,
+            "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -14388,9 +14400,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "200": "ImageItem",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": None,
+            "404": None,
+            "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -14655,9 +14667,10 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "200": "ImageItem",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": None,
+            "404": None,
+            "409": None,
+            "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -14787,9 +14800,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "204": "object",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": None,
+            "404": None,
+            "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -14908,9 +14921,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "204": "object",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": "CreateFrameItem400Response",
+            "404": "CreateFrameItem400Response",
+            "429": "CreateFrameItem400Response",
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -15040,9 +15053,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "200": "GenericItemCursorPaged",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": None,
+            "404": None,
+            "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -15193,9 +15206,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "200": "GenericItemCursorPaged",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": "CreateFrameItem400Response",
+            "404": "CreateFrameItem400Response",
+            "429": "CreateFrameItem400Response",
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -15334,9 +15347,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "200": "GenericItem",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": None,
+            "404": None,
+            "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -15459,9 +15472,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "200": "GenericItem",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": None,
+            "404": None,
+            "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -15591,9 +15604,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "201": "ShapeItem",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": None,
+            "404": None,
+            "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -15720,9 +15733,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "204": "object",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": None,
+            "404": None,
+            "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -15844,9 +15857,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "200": "ShapeItem",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": None,
+            "404": None,
+            "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -15969,9 +15982,10 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "200": "ShapeItem",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": None,
+            "404": None,
+            "409": None,
+            "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -16101,9 +16115,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "201": "StickyNoteItem",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": None,
+            "404": None,
+            "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -16230,9 +16244,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "204": "object",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": None,
+            "404": None,
+            "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -16354,9 +16368,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "200": "StickyNoteItem",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": None,
+            "404": None,
+            "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -16479,9 +16493,10 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "200": "StickyNoteItem",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": None,
+            "404": None,
+            "409": None,
+            "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -17787,9 +17802,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "201": "TextItem",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": None,
+            "404": None,
+            "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -17916,9 +17931,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "204": "object",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": None,
+            "404": None,
+            "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -18040,9 +18055,9 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "200": "TextItem",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": None,
+            "404": None,
+            "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()
@@ -18165,9 +18180,10 @@ class MiroApiEndpoints:
 
         _response_types_map: Dict[str, Optional[str]] = {
             "200": "TextItem",
-            "400": "GetBoards400Response",
-            "404": "GetBoards400Response",
-            "429": "GetBoards400Response",
+            "400": None,
+            "404": None,
+            "409": None,
+            "429": None,
         }
         response_data = self.api_client.call_api(*_param, _request_timeout=_request_timeout)
         response_data.read()

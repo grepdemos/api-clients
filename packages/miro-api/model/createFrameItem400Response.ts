@@ -10,34 +10,33 @@
  * Do not edit the class manually.
  */
 
-export class BasicErrorTeamsEnterprisePlan {
+/**
+ * @internal
+ * Test error obj
+ */
+export class CreateFrameItem400Response {
   /**
-   * HTTP status code.
-   */
-  'status'?: number
-  /**
-   * Description of the status code.
+   * Code of the error
    */
   'code'?: string
   /**
-   * Explanation for the error
+   * Description of the error
    */
   'message'?: string
   /**
-   * Type of the object returned.
+   * Status code of the error
    */
-  'type'?: string = 'error'
+  'status'?: number
+  /**
+   * Type of the error
+   */
+  'type'?: string
 
   /** @ignore */
   static discriminator: string | undefined = undefined
 
   /** @ignore */
   static attributeTypeMap: Array<{name: string; baseName: string; type: string}> = [
-    {
-      name: 'status',
-      baseName: 'status',
-      type: 'number',
-    },
     {
       name: 'code',
       baseName: 'code',
@@ -49,6 +48,11 @@ export class BasicErrorTeamsEnterprisePlan {
       type: 'string',
     },
     {
+      name: 'status',
+      baseName: 'status',
+      type: 'number',
+    },
+    {
       name: 'type',
       baseName: 'type',
       type: 'string',
@@ -57,6 +61,6 @@ export class BasicErrorTeamsEnterprisePlan {
 
   /** @ignore */
   static getAttributeTypeMap() {
-    return BasicErrorTeamsEnterprisePlan.attributeTypeMap
+    return CreateFrameItem400Response.attributeTypeMap
   }
 }

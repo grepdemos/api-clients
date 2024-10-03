@@ -12,17 +12,13 @@
 
 /**
  * @internal
- * Contains information about the image URL.
+ * Contains width of the item.
  */
-export class ImageUrlDataChangesPlatformbulkcreateoperation {
+export class MindMapNodeGeometry {
   /**
-   * A short text header to identify the image.
+   * Width of the item, in pixels.
    */
-  'title'?: string
-  /**
-   * URL of the image.
-   */
-  'url'?: string
+  'width'?: number
 
   /** @ignore */
   static discriminator: string | undefined = undefined
@@ -30,19 +26,14 @@ export class ImageUrlDataChangesPlatformbulkcreateoperation {
   /** @ignore */
   static attributeTypeMap: Array<{name: string; baseName: string; type: string}> = [
     {
-      name: 'title',
-      baseName: 'title',
-      type: 'string',
-    },
-    {
-      name: 'url',
-      baseName: 'url',
-      type: 'string',
+      name: 'width',
+      baseName: 'width',
+      type: 'number',
     },
   ]
 
   /** @ignore */
   static getAttributeTypeMap() {
-    return ImageUrlDataChangesPlatformbulkcreateoperation.attributeTypeMap
+    return MindMapNodeGeometry.attributeTypeMap
   }
 }
